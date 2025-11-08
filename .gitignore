@@ -1,0 +1,171 @@
+# CardioFusion Generated Files - .gitignore
+# This file ignores all generated files from data_preprocessing.ipynb and baseline_models.ipynb
+
+# =================================
+# DATA PREPROCESSING OUTPUTS
+# =================================
+
+# Processed datasets (large CSV files)
+CVD_Cleaned.csv
+train_data.csv
+test_data.csv
+
+# Preprocessing artifacts
+label_encoder.pkl
+scaler.pkl
+preprocessing_metadata.txt
+
+# =================================
+# BASELINE MODELS OUTPUTS
+# =================================
+
+# Models directory and all contents
+baseline_models/
+baseline_models/*
+
+# Individual model files (if saved outside directory)
+*.pkl
+*_model.pkl
+logistic_regression_model.pkl
+decision_tree_model.pkl
+random_forest_model.pkl
+
+# Model results and reports
+baseline_results.csv
+detailed_results.json
+baseline_models_report.md
+*_results.csv
+*_results.json
+*_report.md
+
+# =================================
+# JUPYTER NOTEBOOK OUTPUTS
+# =================================
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Jupyter Notebook temporary files
+.jupyter/
+*.ipynb_checkpoints
+
+# =================================
+# PYTHON CACHE & ENVIRONMENTS
+# =================================
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Conda environments
+conda-meta/
+.conda/
+
+# =================================
+# DATA SCIENCE & ML OUTPUTS
+# =================================
+
+# Model artifacts
+models/
+checkpoints/
+saved_models/
+weights/
+*.h5
+*.hdf5
+*.joblib
+
+# Experiment tracking
+mlruns/
+.mlflow/
+wandb/
+.neptune/
+
+# Large data files
+*.csv
+*.parquet
+*.feather
+*.hdf
+*.h5
+data/
+raw_data/
+processed_data/
+datasets/
+
+# Plots and visualizations
+plots/
+figures/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+
+# =================================
+# SYSTEM & IDE FILES
+# =================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Linux
+*~
+.nfs*
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# =================================
+# LOGS & TEMPORARY FILES
+# =================================
+
+# Logs
+*.log
+logs/
+log/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+.pytest_cache/
+
+# =================================
+# EXCEPTIONS (Files to keep)
+# =================================
+
+# Keep original data and documentation
+!CVD_Original.csv
+!README.md
+!*.ipynb
+!requirements.txt
+!environment.yml
+
+# Keep project structure documentation
+!.gitignore
+!LICENSE
+!setup.py
+!pyproject.toml

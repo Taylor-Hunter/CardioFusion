@@ -6,9 +6,7 @@
 # =================================
 
 # Processed datasets (large CSV files)
-CVD_Cleaned.csv
-train_data.csv
-test_data.csv
+
 
 # Preprocessing artifacts
 label_encoder.pkl
@@ -22,6 +20,8 @@ preprocessing_metadata.txt
 # Models directory and all contents
 baseline_models/
 baseline_models/*
+advanced_models/
+advanced_models/*
 
 # Individual model files (if saved outside directory)
 *.pkl

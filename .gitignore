@@ -92,6 +92,9 @@ wandb/
 
 # Large data files
 *.csv
+!train_data.csv
+!test_data.csv
+!CVD_Cleaned.csv
 *.parquet
 *.feather
 *.hdf

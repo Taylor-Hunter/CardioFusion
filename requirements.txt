@@ -1,9 +1,43 @@
+# ============================================
+# CardioFusion - ML Heart Disease Prediction
+# ============================================
+
+# Core Data Science
 pandas>=2.0.0
 numpy>=1.24.0
-matplotlib>=3.7.0
-seaborn>=0.12.0
+scipy>=1.10.0
+
+# Machine Learning - Traditional
 scikit-learn>=1.3.0
 imbalanced-learn>=0.11.0
-jupyter>=1.0.0
 joblib>=1.3.0
-scipy>=1.10.0
+
+# Advanced ML Models
+xgboost>=2.0.0
+lightgbm>=4.0.0
+
+# Deep Learning
+tensorflow>=2.15.0
+keras>=3.0.0
+
+# Model Explainability
+shap>=0.44.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.18.0
+
+# Web Application
+streamlit>=1.29.0
+streamlit-option-menu>=0.3.6
+
+# Jupyter & Interactive Widgets
+jupyter>=1.0.0
+ipywidgets>=8.1.0
+notebook>=7.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+pillow>=10.0.0
